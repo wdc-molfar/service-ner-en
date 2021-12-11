@@ -41,7 +41,7 @@ let service = new ServiceWrapper({
                     console.log("ignore", msg.content.metadata.nlp)
                     msg.ack()
                 } 
-                return msg.content.metadata.nlp.language.locale == "ru"
+                return msg.content.metadata.nlp.language.locale == "en"
             }),
 
             async (err, msg, next) => {
