@@ -1,1 +1,2 @@
-# service-ner-en
+# service-ner-proto
+Named Entity Recognition for English Language Molfar Service
