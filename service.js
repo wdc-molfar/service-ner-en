@@ -37,7 +37,7 @@ let service = new ServiceWrapper({
             Middlewares.Error.BreakChain,
             
             Middlewares.Filter( msg =>  {
-                if( msg.content.metadata.nlp.language.locale != "ru") {
+                if( msg.content.metadata.nlp.language.locale != "en") {
                     console.log("ignore", msg.content.metadata.nlp)
                     msg.ack()
                 } 
