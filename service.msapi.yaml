@@ -38,7 +38,7 @@ service:
         amqp: 
             $ref: "#/service/config/amqp"
         queue:
-            name: processed_messages
+            name: processed_messages_en
             exchange:
                 name: processed_messages
                 mode: fanout
