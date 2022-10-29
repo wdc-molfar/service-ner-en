@@ -1,2 +1,2 @@
-# service-ner-en
-Named Entity Recognition for English Language Molfar Service
+# service-ner-uk
+Named Entity Recognition for Ukrainian Language Molfar Service
